@@ -1,10 +1,11 @@
 ﻿.sidebar {
-  display: flex;
-  flex-direction: column;
-  background: azure;
-  color: black; }
+    display: flex;
+    flex-direction: column;
+    background: #c7e0f4;
+    color: black;
+}
   .sidebar a {
-    color: white; }
+    color: black; }
   .sidebar i {
     font-size: 14px;
     color: white; }

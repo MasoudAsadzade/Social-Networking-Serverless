@@ -44,7 +44,7 @@ namespace SocialNetworkServerless.AzureSocialNetworkServerless
             services.AddRazorPages();
             services.AddControllers();
             services.AddSignalR();
-//            services.AddSignalR().AddAzureSignalR("Endpoint=https://serverlesssn.service.signalr.net;AccessKey=3oVed+c5glKP3pb1dul0G6/cDZznc/J+melQVmNlsYo=;Version=1.0;");
+            //services.AddSignalR().AddAzureSignalR();
             services.AddCors();
         }
 
@@ -59,8 +59,6 @@ namespace SocialNetworkServerless.AzureSocialNetworkServerless
             else
             {
                 app.UseExceptionHandler("/Error");
-                // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
             }
 
             app.UseHttpsRedirection();

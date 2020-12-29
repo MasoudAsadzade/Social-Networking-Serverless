@@ -30,7 +30,7 @@ namespace SocialNetworkServerless.AzureSocialNetworkServerless.Controllers
             _mapper = mapper;
             _hubContext = hubContext;
         }
-        [HttpGet]
+        [HttpPost]
         [Route("SendtoPersonalTimeline")]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         [ProducesResponseType(typeof(MessageViewModel), (int)HttpStatusCode.OK)]
@@ -68,7 +68,7 @@ namespace SocialNetworkServerless.AzureSocialNetworkServerless.Controllers
             
             return Ok();
         }
-        [HttpGet]
+        [HttpPost]
         [Route("SendtoPublicTimeline")]
         [ProducesResponseType((int)HttpStatusCode.BadRequest)]
         [ProducesResponseType(typeof(MessageViewModel), (int)HttpStatusCode.OK)]
