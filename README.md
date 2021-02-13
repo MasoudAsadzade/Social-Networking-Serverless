@@ -1,6 +1,6 @@
 # Social Networking Serverless Kata
 
-This project implements a serverless-based social networking application u  sing Signalr, Asp.NetCore as Backend, and KnouckoutJs as Front, and Azure as Serverless Host.
+This project implements a serverless-based social networking application using Signalr, Asp.NetCore as Backend, and KnouckoutJs as FrontEnd, and Azure as Serverless Host.
 
 Package, Deploy and Run the application - Azure CLI
 ========
